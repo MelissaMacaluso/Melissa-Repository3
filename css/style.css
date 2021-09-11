@@ -1,0 +1,85 @@
+/*background*/
+.background-chocolate {
+	background-color: rgba(210, 105, 30, 0.3);
+}
+.background-gray {
+	background-color: #FEFEFE;
+}
+
+
+
+/* h1, h2, h3, h4, h5 */
+h1 {
+	font-family: 'Eagle Lake', cursive;
+}
+
+
+
+/* breadcrumbs */
+
+	/* Style the list */
+	nav.breadcrumb{
+		height: 50px;
+	  	width: 140px;
+		border-color: #1E90FF;
+	   	border-style: solid;
+	   	border-width: 0px;
+	   	background-color: #ffffff;
+	   	margin-bottom: 2px;
+	   	margin-top: 0px;
+	   	margin-left: 0px;
+
+	}
+
+	ul.breadcrumb {
+	  padding: 0px;
+	  list-style: none;
+	  background-color: #ffffff;
+
+	}
+
+	/* Display list items side by side */
+	ul.breadcrumb li {
+	  display: inline;
+	  font-size: 16px;
+	}
+
+	/* Add a slash symbol (/) before/behind each list item */
+	ul.breadcrumb li+li:before {
+	  padding: 8px;
+	  color: black;
+	  text-align: center;
+	  content: ">";
+	}
+
+	/* Add a color to all links inside the list */
+	ul.breadcrumb li a {
+	  color: #0275d8;
+	  text-decoration: none;
+	}
+
+	/* Add a color on mouse-over */
+	ul.breadcrumb li a:hover {
+	  color: #01447e;
+	  text-decoration: underline;
+	}
+
+/*buttoms*/
+
+/*catalogo-lista*/
+.lista {
+	color: rgb(107, 80, 71);
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 1px;
+} 
+
+/* checkbox radio */
+.checkbox-container > h3 {font-size: 1em;}
+input[type="radio"] + label {display: inline;}
+
+/*navbar*/
+.navbar-brand {font-family: "Trirong", serif; font-size: 25px}
+
+/*riordina lista*/
+.aside-lista{font-size: 16px;}
